@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500;700&family=Oswald:wght@200;300;400;500;700&family=Roboto:wght@100;300;700&family=Teko:wght@300;400;700&family=Ubuntu+Condensed&display=swap');
+
+
+*, after, before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 68.5%;
+--fontIBM: 'IBM Plex Mono', monospace;
+--fontOswald: 'Oswald', sans-serif;
+--fontRoboto: 'Roboto', sans-serif;
+--fontTeko: 'Teko', sans-serif;
+--fontUbuntu: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+    background-color: #ddd;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:var(--fontIBM);
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: var(--fontTeko);
+   font-style: italic;
+   margin: 2rem;
+   margin-bottom: .5rem;
+   color: #fff;
+   text-shadow: 8px 8px 6px rgba(66, 68, 90, 1);
+}
+
+hr {
+    width: 90%;
+    height: 8px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.search-container {
+    width: 90vw;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    border: 6px solid #fff;
+    border-radius: .8rem;
+    font-family: var(--fontOswald);
+}
+
+.search-container label, .search-container h2 {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+}
+
+select {
+    min-width: 40rem;
+    min-height: 4rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+}
+
+
+.container {
+    min-width: 60vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.products {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 6px solid gray;
+}
+
+.product-info {
+   min-width: 60%;     
+}
+
+.product-info p {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.product-info .product-category {
+    font-size: 3.5rem;
+    font-family: var(--fontTeko);
+}
+.product-info .product-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-info .product-price {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-info .product-discount {
+    color: rgb(4, 0, 255);
+    font-weight: bold; 
+    font-size: 2.5rem;
+}
+
+.product-image {
+    width: 100%;
+     max-height: 25vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-image img {
+    max-width: 10vw;
+    margin-right: 15rem;
+
+}

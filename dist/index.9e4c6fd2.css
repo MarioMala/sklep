@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+img {
+  max-width: 20%;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
