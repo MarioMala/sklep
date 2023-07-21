@@ -1,0 +1,50 @@
+@import "https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;700&family=Open+Sans:wght@300;400;600&display=swap";
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+*, after, before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fontCormorant: "Cormorant", serif;
+  --fontOpenSans: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--fontCormorant);
+  background-color: #a2a2a2;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.container {
+  justify-content: center;
+  min-width: 100%;
+  display: grid;
+}
+
+p {
+  color: #fff;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+}
+
+hr {
+  color: #fff;
+  min-width: 100%;
+}
+
+/*# sourceMappingURL=index.ad91df8f.css.map */

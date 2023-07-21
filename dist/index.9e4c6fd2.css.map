@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;AACA;;AACA;;AAEA","sources":["index.css"],"sourcesContent":["@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;\r\n\r\nimg {\r\n    max-width: 20%;\r\n}"],"names":[],"version":3,"file":"index.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}
