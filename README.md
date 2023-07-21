@@ -1,3 +1,3 @@
-# sklep (pobieranie i wyświetlanie danych)
+# sklep (pobieranie i wyświetlanie danych z API)
 
 >tylko wersja desktopowa
