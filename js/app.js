@@ -2,6 +2,11 @@
 
 const container = document.querySelector('.container');
 const search = document.querySelectorAll('.options');
+const cart = document.querySelector('.fa-cart-shopping')
+
+cart.addEventListener('click', () => {
+	alert('Kliknąłeś w koszyk\nZobacz swoje zakupy')
+})
 
 const mans = "men's clothing";
 const womans = "women's clothing";
@@ -24,8 +29,8 @@ async function fetchProducts() {
 
 				container.innerHTML += `
           <div class="btn-box">
-                  <button class="btn add">Dodaj artykuł do koszyka</button>
-                  <button class="btn del">Usuń artykuł z koszyka</button>
+                  <button class="btn add">Dodaj do koszyka</button>
+                  <button class="btn del">Usuń z koszyka</button>
               </div>
           <div class="products">
             <div class="product-info">

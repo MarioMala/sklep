@@ -132,6 +132,7 @@ select {
 
 .product-image {
 	width: 100%;
+	margin-top: 2rem;
 	max-height: 25vh;
 	display: flex;
 	justify-content: flex-end;
@@ -150,12 +151,11 @@ select {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	border-bottom: 2px solid #fff;
 }
 
 .btn {
 	padding: 0.6rem 1.5rem;
-	margin-left: 5rem;
+	margin-left: 3rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
 	background-color: inherit;
@@ -166,34 +166,37 @@ select {
 .add {
 	color: #08e408;
 	border: 3px solid #08e408;
+	transition: color 0.8s ease-in-out, background 0.8s ease-in-out, border 0.8s ease-in-out;
 }
 
 .add:hover {
 	color: #fff;
-	background-color: #08e408;
-	border: 3px solid #fff;
+	background-color: rgba(8, 228, 8, 0.5);
+	border: 3px solid rgba(8, 228, 8, 0.5);
 }
 
 .del {
 	color: #ff0000ec;
 	border: 3px solid #ff0000ec;
+	transition: color 0.8s ease-in-out, background 0.8s ease-in-out;
 }
 
 .del:hover {
 	color: #fff;
-	border: 3px solid #fff;
-	background-color: #ff0000ec;
+	background-color: rgba(255, 0, 0, 0.5);
+	border: 3px solid rgba(255, 0, 0, 0.5);
 }
 
 .fa-cart-shopping {
-    font-size: 3rem;
-    margin-right: 2rem;
-    color: #fff;
+	font-size: 3rem;
+	margin-right: 2rem;
+	color: #fff;
+	cursor: pointer;
 	text-shadow: 8px 8px 6px rgba(66, 68, 90, 1);
-    transition: transform .5s ease-in-out, color .5s ease-in-out;
+	transition: color 0.8s ease-in-out, background 0.8s ease-in-out, border 0.8s ease-in-out;
 }
 
 .fa-cart-shopping:hover {
-   color: rgba(4, 0, 255, 0.3);
-    transform: scale(1.1);
+	color: rgba(4, 0, 255, 0.3);
+	transform: scale(1.1);
 }
